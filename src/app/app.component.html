@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<app-toggler></app-toggler>
+			<button class="btn btn-primary" (click)="initToogle()">Init Toggle</button>
+      initToogle status {{toggleInit}}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+   
+    <ng-container *ngIf="toggleInit">
+ <app-sidebar></app-sidebar>
+    </ng-container>
+    </div>
+  </div>
+</div>

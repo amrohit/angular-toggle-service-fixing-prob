@@ -1,0 +1,13 @@
+:host {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: yellowgreen;
+  color: white;
+  display: none;
+  height: 200px;
+  text-align: center;
+}
+
+:host.is-active {
+  display: block;
+}
